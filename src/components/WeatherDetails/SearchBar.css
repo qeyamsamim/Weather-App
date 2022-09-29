@@ -1,0 +1,21 @@
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+::placeholder {
+    color: rgb(210, 210, 210);
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: 100%;
+}

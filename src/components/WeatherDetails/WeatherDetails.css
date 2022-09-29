@@ -1,0 +1,20 @@
+h1.temp {
+    margin: 0;
+}
+
+.weather-img {
+    height: 80%;
+    width: 80%;
+}
+
+h2 {
+    animation: typing 2s steps(22), effect .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}

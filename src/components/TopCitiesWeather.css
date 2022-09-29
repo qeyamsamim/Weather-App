@@ -1,0 +1,21 @@
+.card-background {
+    background-color: #000000b1 !important;
+    color: white;
+}
+
+.img-container {
+    overflow: hidden;
+
+}
+
+.city-image {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    transition: 1s ease-in-out;
+}
+
+.img-container:hover .city-image {
+    cursor: pointer;
+    transform: scale(1.3)
+}

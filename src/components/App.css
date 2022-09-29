@@ -1,0 +1,13 @@
+.weather-display-card {
+    background: #000000bd;
+    color: white;
+    padding: 1.4em;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #00000062;
+}
+
+.loading-spinner {
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 40%;
+}
